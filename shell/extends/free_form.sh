@@ -1,9 +1,9 @@
 if [ `su -c settings get global enable_freeform_support` == "1" ]
 then
-    echo -e "禁用Freeform多窗口模式"
+    echo -e "Disable FreeForm/禁用Freeform多窗口模式"
     X=0
 else
-    echo -e "启用用Freeform多窗口模式"
+    echo -e "Enable FreeForm/启用Freeform多窗口模式"
     X=1
 fi
 
